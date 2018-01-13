@@ -12,14 +12,5 @@ body {
    
     background-color: rgb(58, 24, 56);
 }
-.shape {
-    float: center;
-    background-size: contain;
-    margin: 11px;
-    width:11px;
-    height:11px;
-    shape-margin:21px;
-}
-.pentagon {
-    shape-rendering: polygon(32px, 126px, 163px, 32px, 293px, 127px, 244px);
+
 }
