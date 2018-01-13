@@ -4,7 +4,7 @@
 
 
     alert('This is a yes or no question, so please answer with yes or no.' );
-    var answer1 = prompt('Do I like baking?');
+    var answer1 = prompt('Do I like baking?').toLowerCase();
     console.log('The user answered question 1' + answer1);
         if (answer1 === 'No' || answer1 ==='no'){
             alert('Um, what?! Of course I do!');        }
@@ -14,7 +14,7 @@
 
     alert('Question 2');
     
-    var answer2 = prompt('Have I been to Europe?');
+    var answer2 = prompt('Have I been to Europe?').toLowerCase();
     console.log('The user answered question 1' + answer2);
         if (answer2 === 'yes' || answer2 === 'Yes'){
             alert('Aww I wish! I have mostly traveled around Asia, but Europe will happen one day.');    }
@@ -24,7 +24,7 @@
     
     alert('Question 3');
 
-    var answer3 = prompt('Do I watch sports?');
+    var answer3 = prompt('Do I watch sports?').toLowerCase();
     console.log('The user answered question 1' + answer3);
         if (answer3 === 'Yes' || answer3 ==='yes'){
         alert('Nope! Nice try though.');        }
@@ -34,7 +34,7 @@
     
     alert('Question 4');
 
-    var answer4 = prompt('Do I live in Washington state?');
+    var answer4 = prompt('Do I live in Washington state?').toLowerCase();
     console.log('The user answered question 1' + answer4);
     if (answer4 === 'Yes' || answer4 ==='yes'){
     alert('Yes, I do! For now...');        }
@@ -44,7 +44,7 @@
 
     alert('Question 5');
 
-    var answer5 = prompt('Is my favorite color blue?');
+    var answer5 = prompt('Is my favorite color blue?').toLowerCase();
     console.log('The user answered question 1' + answer5);
     if (answer5 === 'Yes' || answer5 ==='yes'){
     alert('Blue is a nice color, but not my favorite. My favorite color is purple');        }
