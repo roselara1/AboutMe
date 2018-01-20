@@ -1,29 +1,33 @@
 * {
     background-color: rgb(58, 24, 56);
-}
-h1  {
+    }
+    h1 {
     font-family: trebuchet MS; Arial; Helvetica;
     color: rgb(206, 206, 206);
     font-size: 7vw;
     text-align: center;
     margin-top: 120px;
     }
-
- h2  {
-        font-family: trebuchet MS; Arial; Helvetica;
-        color: rgb(206, 206, 206);
-        font-size: 4vw;
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 15px;
-}
-
-ol  {
-            font-family: trebuchet MS; Arial; Helvetica;
-            color: rgb(206, 206, 206);
-            font-size: 2vw;
-            text-align: center;
-            list-style: decimal inside none;
-            margin-top: 5px;
-            margin-bottom: 150px;
-}
+    h2 {
+    font-family: trebuchet MS; Arial; Helvetica;
+    color: rgb(206, 206, 206);
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    }
+    ol {
+    font-family: trebuchet MS; Arial; Helvetica;
+    color: rgb(206, 206, 206);
+    font-size: 2vw;
+    text-align: center;
+    list-style: decimal inside none;
+    margin-top: 5px;
+    margin-bottom: 150px;
+    }
+    li {
+    font-family: trebuchet MS; Arial; Helvetica;
+    color: rgb(206, 206, 206);
+    font-size: 2vw;
+    float:center;
+    }
