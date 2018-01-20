@@ -7,7 +7,7 @@ h1  {
     font-size: 7vw;
     text-align: center;
     margin-top: 120px;
-    }
+}
 
  h2  {
         font-family: trebuchet MS; Arial; Helvetica;
@@ -27,3 +27,11 @@ ol  {
             margin-top: 5px;
             margin-bottom: 150px;
 }
+
+li {
+    font-family: trebuchet MS; Arial; Helvetica;
+    color: rgb(206, 206, 206);
+    font-size: 2vw;
+    float:center;
+}
+
