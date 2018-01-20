@@ -1,6 +1,6 @@
 'use strict';
 //keep track of user points
-var points = 0
+var points = 0;
 //greet and get user's name
 
 alert('Well hello there! This page will tell you a bit about me, but before we get there, let\'s learn something about you first. Perhaps, your name?');
@@ -78,7 +78,7 @@ alert('Question 6');
 
 //ask question 6 use a for loop
 var answer6 = 2;
-var guess;
+
 var guess = prompt('How many countries did I travel to in 2017', 'Enter a number between 1 - 10').toLowerCase();
 console.log('The user answered question 1' + answer6);
 for (i = 6; i < 6; i++);{
@@ -88,18 +88,17 @@ for (i = 6; i < 6; i++);{
     console.log(answer6);
     points++;
   }
-  else {
-    if (answer6 > 2);{
+  if (answer6 > 2);{
     alert ('Too high a number. Try again.');
     console.log(answer6);
-    }
-    else (answer6 < 2);{
+  }
+  if (answer6 < 2);{
     alert ('Too low a number. Try again');
     console.log(answer6);
   }
-  }
 }
-  //end
+var guess;
+//end
 
 
 alert('Question 7');
