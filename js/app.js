@@ -24,6 +24,7 @@ else {
   alert('Correct! Sweet treats are my jam! Get it?');
   points++;
 }
+alert('You have ' + points + ' out of 7!');
 
 //ask question 2
 alert('Question 2');
@@ -36,7 +37,7 @@ else {
   alert('You\'re good at this! Hmm, do you know me?...' );
   points++;
 }
-
+alert('You have ' + points + ' out of 7!');
 //ask question 3
 alert('Question 3');
 
@@ -49,7 +50,7 @@ else {
   alert('Correct, I was born in a beautiful country named Dominican Republic.');
   points++;
 }
-
+alert('You have ' + points + ' out of 7!');
 //question 4
 alert('Question 4');
 
@@ -62,6 +63,7 @@ if (answer4 === 'nyc' || answer4 ==='new york'|| answer4 ==='new york city'|| an
 else {
   alert( 'That was a great guess, but it was actually New York City. I moved there when I was 3 years old and it is still my favorite city in the world.');
 }
+alert('You have ' + points + ' out of 7!');
 //ask question 5
 alert('Question 5');
 
@@ -74,64 +76,55 @@ if (answer5 === 'Yes' || answer5 ==='yes'){
 else {
   alert('Actually, I worked as an English teacher for several years in South Korea. I taught everything from business English to engineers, to basic English to preschoolers.');
 }
+alert('You have ' + points + ' out of 7!');
 alert('Question 6');
 
 //ask question 6 use a for loop
 var answer6 = 2;
 
-var guess = prompt('How many countries did I travel to in 2017', 'Enter a number between 1 - 10').toLowerCase();
-console.log('The user answered question 1' + answer6);
-for (i = 6; i < 6; i++);{
-  console.log(i);
-  if (answer6 === 2);{
-    alert('Correct! I visited a total of 2 countries.');
-    console.log(answer6);
-    points++;
-  }
-  if (answer6 > 2);{
+for (var i = 6; i >= 0; i--){
+  var guess = prompt('How many countries did I travel to in 2017', 'Enter a number between 1 - 10').toLowerCase();
+  console.log('The user answered question 1' + guess);
+
+
+  if (guess > answer6) {
     alert ('Too high a number. Try again.');
-    console.log(answer6);
+    console.log(guess);
   }
-  if (answer6 < 2);{
+  if (guess < answer6) {
     alert ('Too low a number. Try again');
-    console.log(answer6);
+    console.log(guess);
+  }
+  if (guess === '2' || guess === 'two') {
+    alert('Correct! I visited a total of 2 countries.');
+    console.log(guess);
+    points++;
+    break;
   }
 }
-var guess;
-//end
 
+//end;
+alert('You have ' + points + ' out of 7!');
 
 alert('Question 7');
 
 //ask question 7 use a for loop
-var answer7 = prompt('Now that you know I went to 2 countries, can you guess one of them? It starts with the letter "T", take a guess.').toLowerCase();
-console.log('The user answered question 1' + answer5);
-if (answer7 === 'Thailand' || answer7 ==='thailand'){
-  alert('Yup! I stayed in Thailand for 12 wonderful days.');
-  points++;
-}
-while (guess < 6){
-  alert ('Enter the name of the country');
-  guess = input.nextInt();
-  if (answer7 !== 'Thailand' || 'thailand');{
-    alert ('No worries, you still have 5 more tries.');
+var answer7 = 'Thailand';
+
+for (var i = 6; i >= 0; i--){
+  var guess7 = prompt('Now that you know I went to 2 countries, can you guess one of them? It starts with the letter "T", take a guess.').toLowerCase();
+  console.log('The user answered question 7' + guess7);
+
+
+  if (guess7 === 'Thailand' || guess7 ==='thailand'){
+    alert('Yup! I stayed in Thailand for 12 wonderful days.');
+    points++;
+    break;
   }
   if (answer7 !== 'Thailand' || 'thailand');{
-    alert ('Hmm try again. 4 more attemps left.');
-  }
-  if (answer7 !== 'Thailand' || 'thailand'); {
-    alert('Close, but no. 3 more tries.');
-  }
-  if (answer7 !== 'Thailand' || 'thailand'); {
-    alert('Oh no! Only 2 more tries left!');
-  }
-  if (answer7 !== 'Thailand' || 'thailand'); {
-    alert('Only 1 try left!');
-  }
-  if (answer7 !== 'Thailand' || 'thailand'); {
-    alert('No more tries left. The correct answer was Thailand. You should visit sometime.');
+    alert ('No worries, you still have ' + i + '  more tries.');
   }
 }
 
-alert ( 'You answered ' + points + 'out of 7 questions correctly!');
+alert ( 'You answered ' + points + ' out of 7 questions correctly!');
 
