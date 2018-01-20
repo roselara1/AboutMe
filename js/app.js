@@ -33,7 +33,7 @@ alert('You have ' + points + ' out of 7!');
 alert('Question 2');
 function q2() {
   var answer2 = prompt('Have I been to Europe?', 'yes or no').toLowerCase();
-  console.log('The user answered question 1' + answer2);
+  console.log('The user answered question 2 ' + answer2);
   if (answer2 === 'yes' || answer2 === 'Yes'){
     alert('Aww I wish! I have mostly traveled around Asia, but Europe will happen one day.');}
   else {
@@ -48,7 +48,7 @@ alert('You have ' + points + ' out of 7!');
 alert('Question 3');
 function q3() {
   var answer3 = prompt('Was I born in the United States?', 'yes or no').toLowerCase();
-  console.log('The user answered question 1' + answer3);
+  console.log('The user answered question 3 ' + answer3);
   if (answer3 === 'Yes' || answer3 ==='yes'){
     alert('Nope! I was actually born in a beautiful country, surrounded by beaches, named Dominican Republic.');
   }
@@ -81,7 +81,7 @@ q4();
 alert('Question 5');
 function q5() {
   var guess = prompt('Have I worked overseas?', 'yes or no').toLowerCase();
-  console.log('The user answered question 1' + guess);
+  console.log('The user answered question 5 ' + guess);
   if (guess === 'Yes' || guess ==='yes'){
     alert('Correct! I worked as an English teacher for several years in South Korea. I taught everything from business English to engineers, to basic English to preschoolers.');
     points++;
@@ -99,7 +99,7 @@ var answer6 = 2;
 function q6() {
   for (var i = 6; i >= 0; i--){
     var guess = prompt('How many countries did I travel to in 2017', 'Enter a number between 1 - 10').toLowerCase();
-    console.log('The user answered question 1' + guess);
+    console.log('The user answered question 6 ' + guess);
 
 
     if (guess > answer6) {
